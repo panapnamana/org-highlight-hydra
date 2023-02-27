@@ -7,6 +7,10 @@ Note: The colorful highlighting options are not made with exporting in mind! If 
 
 Thank you: The heavy lifting was done by both, org-extra-emphasis.el (see https://github.com/QiangF/org-extra-emphasis) and hydra.el (see https://github.com/abo-abo/hydra).
 
+Usage:
+
+In an org-mode buffer: Mark a portion of text, open the hydra with "C-c h" and emphasise/highlight the region with the shortcuts from the pop-up menu. The Hydra will ignore leading and trailing white spaces and still highlight correctly, so you don't have to be super careful about your text selection. But it will not highlight if the selection ends in some word, since org-mode itself cannot do that.
+
 Installing:
 
 Note: I am currently unsure whether hydra.el needs to be installed or is already included in emacs by default. Testing with emacs -q has resulted in me not needing to install hydra.el, so maybe skip step (2). You can always install it from melpa if it doesn't work.
