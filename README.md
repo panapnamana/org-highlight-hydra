@@ -1,6 +1,8 @@
 # org-highlight-hydra
 A pop-up menu for highlighting in org-mode.
 
+![Screenshot from 2023-02-25 22-27-56](https://user-images.githubusercontent.com/60448228/221513856-919ca66f-7daf-48ae-970b-6532ccbd1be5.png)
+
 Note: The colorful highlighting options are not made with exporting in mind! If anything works in exporting it is either due to the already present functionality in org-mode or org-extra-emphasis.
 
 Thank you: The heavy lifting was done by both, org-extra-emphasis.el (see https://github.com/QiangF/org-extra-emphasis) and hydra.el (see https://github.com/abo-abo/hydra).
