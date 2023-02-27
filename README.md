@@ -8,12 +8,15 @@ Thank you: The heavy lifting was done by both, org-extra-emphasis.el (see https:
 Installing:
 
 General Steps:
-Emacs has to load (1) the altered version of org-extra-emphasis.el,(2) hydra.el and (3) org-highlight-hydra.el.
+Emacs has to load (1) the altered version of org-extra-emphasis.el, (2) hydra.el and (3) org-highlight-hydra.el.
 
 (1) Go to my fork of org-extra emphasis: https://github.com/panapnamana/org-extra-emphasis-highlight-hydra
 Grap (download/copy-paste/or whatever) org-extra-emphasis.el and put into /your-path/your-folder/
+
 (2) Install hydra.el with the method of your choice
+
 (3) Grap org-highlight-hydra.el and put it into the above folder (or not :D)
+
 
 Load the code from org-extra-emphasis.el and org-highlight-hydra in your .emacs (or preferred config-file) with:
 
