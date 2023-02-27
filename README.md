@@ -25,7 +25,7 @@ Load the code from org-extra-emphasis.el and org-highlight-hydra in your .emacs 
     (load-file "/your-path/your-folder/org-extra-emphasis.el")
     (load-file "/your-path/your-folder/org-highlight-hydra.el")
     
-Also set the highlighting colors, either through the menu or quick and dirty by coying this:
+Also set the highlighting colors, either through the menu or quick and dirty by copying this:
 
     (custom-set-faces
      '(org-default ((t (:inherit default))))
