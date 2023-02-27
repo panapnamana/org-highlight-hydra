@@ -25,6 +25,18 @@ Load the code from org-extra-emphasis.el and org-highlight-hydra in your .emacs 
     (load-file "/your-path/your-folder/org-extra-emphasis.el")
     (load-file "/your-path/your-folder/org-highlight-hydra.el")
     
+Also set the highlighting colors, either through the menu or quick and dirty by coying this:
+
+    (custom-set-faces
+     '(org-default ((t (:inherit default))))
+     '(org-extra-emphasis ((t (:inherit default))))
+     '(org-extra-emphasis-01 ((t (:foreground "black" :background "gold" :inherit org-extra-emphasis))))
+     '(org-extra-emphasis-02 ((t (:foreground "black" :background "lightgreen" :inherit org-extra-emphasis))))
+     '(org-extra-emphasis-03 ((t (:foreground "black" :background "SkyBlue2" :inherit org-extra-emphasis))))
+     '(org-extra-emphasis-04 ((t (:foreground "black" :background "salmon" :inherit org-extra-emphasis))))
+     '(org-extra-emphasis-05 ((t (:foreground "black" :background "red" :inherit org-extra-emphasis))))
+     '(org-extra-emphasis-06 ((t (:foreground "black" :background "yellow" :inherit org-extra-emphasis)))))
+    
 Note that I set the key-binding for the hydra inside the org-highlight-hydra.el file to "C-c h".
 
-I hope this works as I have only tested this on my setup. Enjoy!
+I hope this works. I tested it with emacs -q, so it probably should. Enjoy!
