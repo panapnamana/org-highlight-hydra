@@ -9,6 +9,8 @@ Thank you: The heavy lifting was done by both, org-extra-emphasis.el (see https:
 
 Installing:
 
+Note: I am currently unsure whether hydra.el needs to be installed or is already included in emacs by default. Testing with emacs -q has resulted in me not needing to install hydra.el, so maybe skip step (2). You can always install it from melpa if it doesn't work.
+
 General Steps:
 Emacs has to load (1) the altered version of org-extra-emphasis.el, (2) hydra.el and (3) org-highlight-hydra.el.
 
